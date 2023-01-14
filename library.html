@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib-style.css">
+    <title>LIBRARY</title>
+</head>
+<body>
+    <div class="titlebox">
+        <h1 class="zen-title">ZEN LIBRARY</h1>
+        <img src="./leaf.png" alt="">
+        <button class="add">Add a book</button>
+        
+    </div>
+    <div class="container">
+        <div class="section" id="form-container">
+            <form >
+
+                <div>
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title" placeholder="Book Title">
+                </div>
+
+                <div>
+                    <label for="author">Author</label>
+                    <input type="text" name="author" id="author" placeholder="Book Author">
+                </div>
+
+                <div>
+                    <label for="pages">Pages</label>
+                    <input type="text" name="pages" id="pages" placeholder="N.o Pages">
+                </div>
+                <button id="btn">SUBMIT</button>
+                <img id="close-btn" src="https://cdn-icons-png.flaticon.com/128/753/753345.png" alt="">
+            </form>
+        </div>
+        <div  class=section id="card-container">
+                        <!--<div id="msg" class="card">
+                            <pre></pre>
+                            <h2></h2>
+                        </div>
+                        <div class="card"></div>
+                        <div class="card"></div>
+                        <div class="card"></div> !-->
+        </div> 
+    </div>
+</body>
+<script src="./script-lib.js"></script>
+</html>

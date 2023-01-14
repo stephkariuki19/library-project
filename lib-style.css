@@ -1,0 +1,123 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #A3EBB1;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+/*  for card-container -->display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:20px;*/
+#card-container{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(3,auto);
+    padding:15px;
+    background-color:#18A558;
+    border-radius: 3px;
+}
+.card{
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 18px;
+    width:300px;
+}
+form{
+    width:450px;
+    margin:0 auto;
+    
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    height:250px;
+    border-radius: 5px;
+}
+input{
+    display: block;
+    padding:4px;
+    width:80%;
+    height:5%;
+    border:none;
+    outline:none;
+    border-bottom: 1px solid  black;
+    cursor:pointer;
+    margin: 0px 0px 15px 20px;
+    font-size: 20px;
+}
+form ::placeholder{
+    color: white;
+}
+label{
+    padding-left: 20px;
+}
+#btn{
+    width:100px;
+    height: 50px;
+    background-color:  #116530;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 170px;
+}
+.card-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+.zen-title{
+    color:#116530;
+    font-size: 34px;
+    margin-left: 10px;
+    font-weight:400;
+}
+.add{
+    background-color:#116530;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+   width:120px;
+   height: 30px;
+   border-radius: 5px;
+   padding: 2px;
+   border: none;
+}
+
+.titlebox img{
+width:50px;
+height: 50px;
+position: relative;
+margin:10px;
+margin-top: 15px;
+}
+.titlebox{
+    display: flex;
+}
+#close-btn{
+    width:20px;
+    height:20px;
+    position: relative;
+    bottom:215px;
+    left:153px;
+}
+.card-close{
+    color: white;
+    background-color: rgb(196, 58, 58);
+    width:80px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+}
+.status{
+    color: white;
+    background-color: #116530;
+    width:90px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    margin-left: 10px;
+ }
