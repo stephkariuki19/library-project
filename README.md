@@ -1,1 +1,2 @@
-# odin-lib-project
+# Library Project
+mini library system with CRUD operations
